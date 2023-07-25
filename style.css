@@ -1,0 +1,62 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
+}
+
+main * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#plane {
+  height: 1px;
+  background-color: white;
+  border: 1px solid white;
+}
+
+#pendulum {
+  margin: auto;
+}
+
+#origin {
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  border-radius: 50%;
+  position: absolute;
+}
+
+#play {
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: transparent;
+  border: none;
+  font-size: 40px;
+}
+
+.play-symbol {
+  color: white;
+}
